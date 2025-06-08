@@ -1,20 +1,13 @@
 # auto
 
-
 自动保持 GitHub 提交状态常绿。
 
-> a commit 1 天之前 keeps your girlfriend away.
+## 使用方法
 
-## 原理
-
-有关 Github Action 的原理，可查看官方文档 [Github Action 简介](https://docs.github.com/cn/actions/learn-github-actions/introduction-to-github-actions)
-
-## 使用
-
-- 点右上角 **Use this template** 按钮复制本 GitHub 仓库，**:warning: 千万不要 Fork，因为 fork 项目的动态并不会让你变绿 :warning:**
-- 修改 [ci.yml 文件的第 7、8 行]去掉前面的 `#` 号
-- 修改 [ci.yml 文件的第 19、20 行]为自己的 GitHub 账号和昵称
-- (可选) 你可以通过修改 [ci.yml 文件的第 8 行]来调整频率
+- 点右上角 ** 克隆 Web URL ** 按钮复制本 GitHub 仓库地址，然后导入仓库，不要 Fork，因为 fork 无效。
+- 修改 [ci.yml 文件的第 7、8 行]去掉前面的 `#` 号。
+- 修改 [ci.yml 文件的第 19、20 行]为自己的 GitHub 账号和昵称。
+- (可选) 你可以通过修改 [ci.yml 文件的第 8 行]来调整频率。
 
 计划任务语法有 5 个字段，中间用空格分隔，每个字段代表一个时间单位。
 
